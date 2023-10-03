@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-for-each",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Invoke a function for each UTF-16 code unit in a string.",
   "license": "Apache-2.0",
   "author": {
@@ -40,7 +40,7 @@
   "devDependencies": {
     "@stdlib/assert-is-string": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
-    "@stdlib/utils-noop": "^0.1.0",
+    "@stdlib/utils-noop": "^0.1.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
