@@ -45,14 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base-for-each
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-for-each@deno/mod.js';
+var forEach = require( '@stdlib/string-base-for-each' );
 ```
 
 #### forEach( str, clbk\[, thisArg ] )
@@ -120,7 +136,7 @@ var cnt = ctx.count;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-for-each@deno/mod.js';
+var forEach = require( '@stdlib/string-base-for-each' );
 
 function log( value, index ) {
     console.log( '%d: %s', index, value );
@@ -148,6 +164,14 @@ forEach( '\uD834\uDD1E', log );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-base/for-each-code-point`][@stdlib/string/base/for-each-code-point]</span><span class="delimiter">: </span><span class="description">invoke a function for each Unicode code point in a string.</span>
+-   <span class="package-name">[`@stdlib/string-base/for-each-grapheme-cluster`][@stdlib/string/base/for-each-grapheme-cluster]</span><span class="delimiter">: </span><span class="description">invoke a function for each grapheme cluster (i.e., user-perceived character) in a string.</span>
+-   <span class="package-name">[`@stdlib/string-for-each`][@stdlib/string/for-each]</span><span class="delimiter">: </span><span class="description">invoke a function for each character in a string.</span>
+
 </section>
 
 <!-- /.related -->
@@ -161,7 +185,7 @@ forEach( '\uD834\uDD1E', log );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -220,6 +244,16 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/string-base-for-each/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-base-for-each/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/string/base/for-each-code-point]: https://github.com/stdlib-js/string-base-for-each-code-point
+
+[@stdlib/string/base/for-each-grapheme-cluster]: https://github.com/stdlib-js/string-base-for-each-grapheme-cluster
+
+[@stdlib/string/for-each]: https://github.com/stdlib-js/string-for-each
+
+<!-- </related-links> -->
 
 </section>
 
